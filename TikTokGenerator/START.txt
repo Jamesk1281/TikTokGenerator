@@ -1,0 +1,9 @@
+To start the Stable Diffusion AI image generator, copy and paste this into the terminal:
+
+cd ~/stable-diffusion-webui
+source venv/bin/activate
+./webui.sh --api
+
+Might need to launch ollama by running the following command in the terminal:
+
+ollama serve
